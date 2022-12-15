@@ -26,17 +26,21 @@
 }
 
 .decks li {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100px;
+  height: 120px;
   color: rgb(255, 255, 255);
   background: rgb(22, 18, 18);
   border: 1px solid black;
   border-radius: 10px;
 }
 
-.decks li:hover{
-  background: rgb(54, 43, 43);
-  cursor: pointer;
+
+.decks li button {
+  position: absolute;
+  font-size: 10px;
+  top: 5px;
+  right: 5px;
 }
